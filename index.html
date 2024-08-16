@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="http://127.0.0.1:5500/images/wp4333231-mi-vs-csk-wallpapers.jpg">
+    <title>My Favorite IPL Team By Ujjawal</title>
+    <style> 
+    body {
+        background-color: #faa499;
+        background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh; 
+        font-size: 5rem;
+        color: teal;
+        margin-bottom: 0px;
+        transition: color 0.3s ease;
+        text-shadow: 5px 3px 5px rgb(20, 59, 55);
+    }
+
+    h1:hover {
+        color: darkorange;
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh; 
+        font-size: 5rem;
+        color: teal;
+        transition: color 0.3s ease;
+        margin: 10px;
+    }
+
+    h2:hover {
+        color: darkorange;
+    }
+
+    img {
+        width: 1000px;
+        border-radius: 50px;
+        display: block;
+        margin: 0 auto;
+        transition: transform 0.3s ease;
+    }
+    img:hover {
+        transform: scale(1.05);
+    }
+    .info {
+        font-weight: bold;
+        font-style: italic;
+        font-size: x-large;
+        transition: color 0.3s ease;
+    }
+    .info:hover {
+        color: darkorange;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh; 
+        padding-bottom: 30px;
+    }
+    .tmi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh; 
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh; 
+        font-size: 5rem;
+        color: teal;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    .title:hover {
+        color: darkorange;
+    }
+    p {
+        margin: 20px;
+        padding: 10px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    p:hover {
+        background-color: #ebddd1;
+        color: darkorange;
+    }
+    .topnav {
+         background-color: teal;
+         overflow: hidden;
+    }
+    .topnav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 5vh;
+        list-style: none;
+    }
+    .topnav li a{
+        color: #f2f2f2;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        transition: 0.3s ease, color 0.3s ease;
+    }
+    .topnav li a:hover {
+        background-color: darkorange;
+        color: black;
+    }
+    .external-link {
+        font-size: 5rem;
+        display: block;
+        text-align: center;
+        margin: 70px;
+        color: teal;
+        text-decoration: none;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+        animation: pulse 2s infinite; /* Apply the pulse animation */
+    }
+    .external-link:hover {
+        text-decoration: underline;
+        color: darkorange;
+    }
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        transition: box-shadow 0.3s ease;
+    }
+    table:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    table, th, td {
+        border: 1px solid teal;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: teal;
+        color: white;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .popupimg{
+        margin-top: 50px;
+        animation: pulse 2s infinite; /* Apply the pulse animation */
+    }
+
+    .popup-image {
+      cursor: pointer;
+    }
+  
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+  
+    .popup-image-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 80%;
+      max-height: 80%;
+      background-color: #faa499;
+        background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    .popup-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  
+    .popup-overlay:target {
+      display: block;
+    }
+  
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      background-color: white;
+      border-radius: 10px;
+      padding: 0 5px;
+    }
+  
+    .close-button:hover {
+      color: black;
+    }
+  
+    .close-button:active {
+      color: #000;
+    }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#team-members">Team Members</a></li>
+            <li><a href="##team-members-table">Team Members Table</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </div>
+
+    <h1>CHENNAI SUPER KINGS</h1>
+
+    <div class="flex-container"><img src="images/wp4811965-csk-words-logo-wallpapers.jpg" alt="CSK Logo"></div>
+
+    <p style="color: teal;" class="info">The Chennai Super Kings (CSK) are one of the most successful and iconic franchises in the Indian Premier League (IPL), a professional Twenty20 cricket league in India. Established in 2008, CSK is based in Chennai, Tamil Nadu, and has become synonymous with consistency, excellence, and a passionate fan base. The team is owned by Chennai Super Kings Cricket Ltd, a subsidiary of India Cements, and has its home ground at the M. A. Chidambaram Stadium, often referred to as Chepauk.<code></code></p>
+
+    <p style="color: teal;" class="info">Under the astute leadership of MS Dhoni, who is widely regarded as one of the greatest captains in cricket history, CSK has achieved remarkable success in the IPL. Dhoni’s calm demeanor, strategic acumen, and exceptional wicket-keeping and batting skills have been pivotal in shaping the team’s fortunes. His influence extends beyond the field, fostering a culture of teamwork and resilience that has been integral to the team’s success. The Super Kings have won the IPL title five times (2010, 2011, 2018, 2021, and 2023) and have appeared in the finals on nine occasions, making them one of the most consistent and dominant teams in the league’s history. Their victory in the Champions League Twenty20 in 2010 further solidified their reputation as a formidable force in T20 cricket.<code></code></p>
+
+    <p style="color: teal;" class="info">CSK’s success can be attributed to a blend of experienced players and emerging talents. Alongside Dhoni, key players like Suresh Raina, Ravindra Jadeja, Dwayne Bravo, and Faf du Plessis have played crucial roles in the team’s performances. Raina, known for his explosive batting and reliable fielding, was a mainstay for CSK until his departure in 2021. Bravo’s all-round capabilities and ability to perform under pressure have made him a fan favorite, while Jadeja’s contributions with both bat and ball have been instrumental in many victories. The team has also been known for its ability to scout and nurture young talent, contributing to its long-term success.<code></code></p>
+
+    <p style="color: teal;" class="info">The Super Kings are celebrated for their strategic gameplay, which combines aggressive batting, effective bowling, and sharp fielding. Their ability to perform in high-pressure situations, particularly in knockout matches, has been a hallmark of their success. CSK’s management has always emphasized a balanced approach, retaining a core group of players and building around them to maintain stability and cohesion. This stability, coupled with a strong support staff and effective coaching strategies, has helped the team remain competitive throughout the IPL seasons.<code></code></p>
+
+    <p style="color: teal;" class="info">Off the field, CSK boasts a massive and dedicated fan base, known for their unwavering support and enthusiasm. The team’s vibrant yellow jerseys and distinctive lion emblem are symbolic of their identity and have become synonymous with IPL’s vibrant culture. The loyal fans, often referred to as the “Yellow Brigade,” play a significant role in creating an electrifying atmosphere at the M. A. Chidambaram Stadium and during away matches.<code></code></p>
+
+    <p style="color: teal;" class="info">In summary, the Chennai Super Kings are a pillar of success in the Indian Premier League, celebrated for their on-field achievements, strategic brilliance, and a deeply passionate fan base. Their legacy is built on a foundation of consistent performance, astute leadership, and a culture of excellence, making them one of the most revered and successful franchises in T20 cricket.<code></code></p>
+
+    <h2 id="team-members" class="title">Team Members</h2>
+
+    <div class="tmi"><img src="images/CSK-PLAYERS-LIST-2024-1024x683.jpg" alt="CSK Players List"></div>
+
+    <!-- Table below the team members section -->
+    <h2 id = "#team-members-table">Team Members Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Nationality</th>
+                <th>Year Joined</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MS Dhoni</td>
+                <td>Captain</td>
+                <td>Indian</td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td>Ravindra Jadeja</td>
+                <td>All-Rounder</td>
+                <td>Indian</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>Dwayne Bravo</td>
+                <td>All-Rounder</td>
+                <td>West Indian</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td>Faf du Plessis</td>
+                <td>Batsman</td>
+                <td>South African</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td>Suresh Raina</td>
+                <td>Batsman</td>
+                <td>Indian</td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td>Josh Hazlewood</td>
+                <td>Bowler</td>
+                <td>Australian</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Deepak Chahar</td>
+                <td>Bowler</td>
+                <td>Indian</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Simarjeet Singh</td>
+                <td>Bowler</td>
+                <td>Indian</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Maheesh Theekshana</td>
+                <td>Bowler</td>
+                <td>Sri Lankan</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Prashant Solanki</td>
+                <td>Bowler</td>
+                <td>Indian</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Ruturaj Gaikwad</td>
+                <td>Batsman</td>
+                <td>Indian</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Rajvardhan Hangargekar</td>
+                <td>All-Rounder</td>
+                <td>Indian</td>
+                <td>2022</td>
+            </tr>
+        </tbody>
+    </table>
+      <a href="#image1" class="popup-image">
+        <img class = "popupimg" src="images/maxresdefault (1).webp" alt="di is gone lol">
+      </a>
+      
+      <div id="image1" class="popup-overlay">
+        <div class="popup-image-container">
+          <img src="images/maxresdefault (1).webp" alt="di is gone lol">
+          <a href="#" class="close-button">×</a>
+        </div>
+      </div>
+      
+    <a class="external-link" id="video" href="https://www.youtube.com/watch?v=OlGfSKcWhdA" target="_blank">Watch the CSK Video on YouTube!!</a>
+</body>
+</html>
